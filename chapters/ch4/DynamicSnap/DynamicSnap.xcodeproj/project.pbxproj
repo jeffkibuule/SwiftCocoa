@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FEACA2E1A61CC150040496E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEACA2D1A61CC150040496E /* AppDelegate.swift */; };
+		1FEACA301A61CC150040496E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEACA2F1A61CC150040496E /* ViewController.swift */; };
+		1FEACA331A61CC150040496E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEACA311A61CC150040496E /* Main.storyboard */; };
+		1FEACA351A61CC150040496E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEACA341A61CC150040496E /* Images.xcassets */; };
+		1FEACA381A61CC150040496E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FEACA361A61CC150040496E /* LaunchScreen.xib */; };
+		1FEACA441A61CC150040496E /* DynamicSnapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEACA431A61CC150040496E /* DynamicSnapTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FEACA3E1A61CC150040496E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FEACA201A61CC150040496E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FEACA271A61CC150040496E;
+			remoteInfo = DynamicSnap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FEACA281A61CC150040496E /* DynamicSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEACA2C1A61CC150040496E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEACA2D1A61CC150040496E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FEACA2F1A61CC150040496E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FEACA321A61CC150040496E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FEACA341A61CC150040496E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1FEACA371A61CC150040496E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1FEACA3D1A61CC150040496E /* DynamicSnapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicSnapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEACA421A61CC150040496E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEACA431A61CC150040496E /* DynamicSnapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicSnapTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FEACA251A61CC150040496E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEACA3A1A61CC150040496E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FEACA1F1A61CC150040496E = {
+			isa = PBXGroup;
+			children = (
+				1FEACA2A1A61CC150040496E /* DynamicSnap */,
+				1FEACA401A61CC150040496E /* DynamicSnapTests */,
+				1FEACA291A61CC150040496E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FEACA291A61CC150040496E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FEACA281A61CC150040496E /* DynamicSnap.app */,
+				1FEACA3D1A61CC150040496E /* DynamicSnapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FEACA2A1A61CC150040496E /* DynamicSnap */ = {
+			isa = PBXGroup;
+			children = (
+				1FEACA2D1A61CC150040496E /* AppDelegate.swift */,
+				1FEACA2F1A61CC150040496E /* ViewController.swift */,
+				1FEACA311A61CC150040496E /* Main.storyboard */,
+				1FEACA341A61CC150040496E /* Images.xcassets */,
+				1FEACA361A61CC150040496E /* LaunchScreen.xib */,
+				1FEACA2B1A61CC150040496E /* Supporting Files */,
+			);
+			path = DynamicSnap;
+			sourceTree = "<group>";
+		};
+		1FEACA2B1A61CC150040496E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FEACA2C1A61CC150040496E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FEACA401A61CC150040496E /* DynamicSnapTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FEACA431A61CC150040496E /* DynamicSnapTests.swift */,
+				1FEACA411A61CC150040496E /* Supporting Files */,
+			);
+			path = DynamicSnapTests;
+			sourceTree = "<group>";
+		};
+		1FEACA411A61CC150040496E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FEACA421A61CC150040496E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FEACA271A61CC150040496E /* DynamicSnap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEACA471A61CC150040496E /* Build configuration list for PBXNativeTarget "DynamicSnap" */;
+			buildPhases = (
+				1FEACA241A61CC150040496E /* Sources */,
+				1FEACA251A61CC150040496E /* Frameworks */,
+				1FEACA261A61CC150040496E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicSnap;
+			productName = DynamicSnap;
+			productReference = 1FEACA281A61CC150040496E /* DynamicSnap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FEACA3C1A61CC150040496E /* DynamicSnapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEACA4A1A61CC150040496E /* Build configuration list for PBXNativeTarget "DynamicSnapTests" */;
+			buildPhases = (
+				1FEACA391A61CC150040496E /* Sources */,
+				1FEACA3A1A61CC150040496E /* Frameworks */,
+				1FEACA3B1A61CC150040496E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FEACA3F1A61CC150040496E /* PBXTargetDependency */,
+			);
+			name = DynamicSnapTests;
+			productName = DynamicSnapTests;
+			productReference = 1FEACA3D1A61CC150040496E /* DynamicSnapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FEACA201A61CC150040496E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Joefrey Kibuule";
+				TargetAttributes = {
+					1FEACA271A61CC150040496E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1FEACA3C1A61CC150040496E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1FEACA271A61CC150040496E;
+					};
+				};
+			};
+			buildConfigurationList = 1FEACA231A61CC150040496E /* Build configuration list for PBXProject "DynamicSnap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FEACA1F1A61CC150040496E;
+			productRefGroup = 1FEACA291A61CC150040496E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FEACA271A61CC150040496E /* DynamicSnap */,
+				1FEACA3C1A61CC150040496E /* DynamicSnapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FEACA261A61CC150040496E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEACA331A61CC150040496E /* Main.storyboard in Resources */,
+				1FEACA381A61CC150040496E /* LaunchScreen.xib in Resources */,
+				1FEACA351A61CC150040496E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEACA3B1A61CC150040496E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FEACA241A61CC150040496E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEACA301A61CC150040496E /* ViewController.swift in Sources */,
+				1FEACA2E1A61CC150040496E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEACA391A61CC150040496E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEACA441A61CC150040496E /* DynamicSnapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FEACA3F1A61CC150040496E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FEACA271A61CC150040496E /* DynamicSnap */;
+			targetProxy = 1FEACA3E1A61CC150040496E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FEACA311A61CC150040496E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FEACA321A61CC150040496E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FEACA361A61CC150040496E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FEACA371A61CC150040496E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FEACA451A61CC150040496E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FEACA461A61CC150040496E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FEACA481A61CC150040496E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynamicSnap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FEACA491A61CC150040496E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynamicSnap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1FEACA4B1A61CC150040496E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DynamicSnapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicSnap.app/DynamicSnap";
+			};
+			name = Debug;
+		};
+		1FEACA4C1A61CC150040496E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DynamicSnapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicSnap.app/DynamicSnap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FEACA231A61CC150040496E /* Build configuration list for PBXProject "DynamicSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEACA451A61CC150040496E /* Debug */,
+				1FEACA461A61CC150040496E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FEACA471A61CC150040496E /* Build configuration list for PBXNativeTarget "DynamicSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEACA481A61CC150040496E /* Debug */,
+				1FEACA491A61CC150040496E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FEACA4A1A61CC150040496E /* Build configuration list for PBXNativeTarget "DynamicSnapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEACA4B1A61CC150040496E /* Debug */,
+				1FEACA4C1A61CC150040496E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FEACA201A61CC150040496E /* Project object */;
+}
